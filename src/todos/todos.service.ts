@@ -1,9 +1,5 @@
+import { Todo } from '@app/entities';
 import { Injectable } from '@nestjs/common';
-
-type Todo = {
-  message: string;
-  done: boolean;
-};
 
 const todos: Todo[] = [
   {
